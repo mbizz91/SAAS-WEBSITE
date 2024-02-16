@@ -1,0 +1,313 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper{
+  overflow-y: auto; /* Enable vertical scrolling for the wrapper */
+  height: 100vh;
+}
+
+.navbar {
+  position: fixed;
+  top: 4px;
+  right: 0;
+  left: 0;
+  z-index: 500;
+  transition: ease-in-out 0.3s;
+
+}
+
+
+
+#topNav{
+z-index: 600;
+}
+
+
+.vector1{
+  background-image: linear-gradient(314deg, #d9d9d970 17.61%, #d9d9d900 55.85% ), url(/saas-project-assets/abstract/hire-us-transparent-pattern-bg.svg);
+  clip-path: polygon(0 0%, 100% 0%, 54% 87%, 0% 93%);
+  width: 100%;
+  height: 1490px;
+  position: absolute;
+}
+
+.vector2{
+  width: 60%;
+    height: 568px;
+    background-color: #e1e7ef;
+    clip-path: polygon(25% 0, 100% 0, 100% 81%, 0% 100%);
+    position: absolute;
+    top: 0%;
+    left: 60%;
+}
+
+
+
+.fa-caret-left{
+  font-size: medium;
+}
+
+.navbar.sticky {
+  background-color: var(--white);
+  box-shadow: 0px 0px 20px rgba(48, 63, 100, 0.2);
+}
+
+.navbar .container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.navbar .container .maindemo {
+  margin-right: auto;
+}
+.navbar .container .demo {
+  margin-right: 30px;
+}
+.navbar .container .Docs {
+  margin-right: 30px;
+}
+
+.navbarlogo {
+  margin-right: auto;
+}
+
+.projectlogo {
+  width: 60%;
+  height: 100px;
+  margin: 30px 0px;
+}
+
+.navbar .container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.features a{
+  margin-right: 30px;
+  text-decoration: none;
+  color: blue;
+}
+
+.navbar .container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+}
+
+.container .googledrive .calendar{
+justify-content: space-evenly;
+}
+
+
+#calendar{
+margin: 10px;
+}
+.shortcuts { margin-right: auto;}
+
+.shortcuts a {
+  margin-right: 30px;
+  text-decoration: none;
+  color: var(--font-color-dark);
+}
+
+.buybutton {
+  font-weight: 600;
+   font-size: var(--size-18);
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  z-index: 600;
+}
+
+
+.subtext  {
+margin-right: auto;
+}
+
+.headertext1{
+  margin: 20px;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: normal;
+  color: black;
+}
+
+.smalltext{
+  margin-left: 20px;
+  line-height: 0px;
+  font-size: 15px;
+  font-weight: 600;
+  color: gray;
+}
+
+.circle{
+  background: white;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0px 2px 6px -2px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.google{
+  position: absolute;
+  left: 50%;
+}
+
+.google .logo_icons{
+  width: 50px;
+  height: 50px;
+}
+
+.atlassian{
+  position: absolute;
+    left: 62%;
+    padding: 20px;
+}
+
+.atlassian .logo_icons{
+  width: 50px;
+  height: 50px;
+}
+
+
+.asana{
+  position: absolute;
+  left: 78%;
+  padding: 20px;
+}
+
+.asana .logo_icons{
+  width: 50px;
+  height: 50px;
+}
+
+
+.paypal{
+  position: absolute;
+  top: 63%;
+  left: 48%;
+  padding: 15px;
+}
+
+.paypal .logo_icons{
+  width: 50px;
+  height: 50px;
+}
+
+
+.weave{
+  position: absolute;
+  top: 63%;
+  left: 66%;
+  padding: 15px;
+}
+.weave .logo_icons{
+  width: 50px;
+  height: 50px;
+}
+
+ .googledrive {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  left: 233px;
+  top: 37px;
+ }
+
+
+#calendar{
+  margin: 0px;
+  position: relative;
+  right: 71px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  top: 80px
+}
+
+#calendar .logo_icons{
+  height: 60px;
+    width: 60px;
+}
+
+.playvideo {
+  font-size: var(--size-16);
+  display: flex;
+  align-items: center;
+}
+.learnmore{
+  color: blue;
+  font-weight: bold;
+}
+
+.logo_icons{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-solid{
+  font-weight: 900;
+  font-size: var(--size-20);
+  margin-right: 10px;
+  height: 100%;
+}
+
+#caret{
+  font-size: var(--size-16);
+  color: var(--font-color-base)
+}
+
+
+.bg-contrast{
+    padding: var(--size-150) 0;
+    margin-top: 100px;
+}
+
+.KeyBenefits{
+  z-index: 900;
+}
+.keybenefitsTitle{
+  position: relative;
+    text-align: center;
+    top: 579px;
+    color: black;
+}
+
+.subtext2{
+  margin: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: normal;
+    color: gray;
+}
+
+.benefitlist{  
+  background-color: var(--white);
+  border-radius: 8px;
+  padding: var(--size-40) var(--size-16);
+  position: relative;
+  top: 602px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.icons{
+  width: 50px;
+  height: 50px;
+}
